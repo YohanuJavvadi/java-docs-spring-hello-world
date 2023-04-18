@@ -15,6 +15,11 @@ public class DemoApplication {
 
 	@RequestMapping("/")
 	String sayHello() {
-		return "Hello World!";
+		return "Hello Spring Boot First App!";
+	}
+	
+	@GetMapping("/test")
+	String sayHello() {
+		return "Success";
 	}
 }

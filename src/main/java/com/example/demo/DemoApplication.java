@@ -19,7 +19,7 @@ public class DemoApplication {
 	}
 	
 	@GetMapping("/test")
-	String sayHello() {
+	String testHello() {
 		return "Success";
 	}
 }
